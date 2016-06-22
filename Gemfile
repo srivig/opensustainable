@@ -15,4 +15,3 @@ gem 'mysql2', '0.3.20'
 Dir.glob( 'mod/**{,/*/**}/Gemfile' ).each do |gemfile|
   instance_eval File.read(gemfile)
 end
-
